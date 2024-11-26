@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Perfumes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Encabezado con el logo -->
+  <header>
+    <img src="logoWeb.png" alt="Logo" class="logo">
+  </header>
+
+  <!-- Contenedor para los productos -->
+  <div class="catalogo-container">
+    <!-- Producto 1 -->
+    <div class="producto">
+      <img src="boss.png" alt="Perfume Boss" class="imagen-perfume">
+      <div class="botones-info">
+        <button onclick="mostrarTexto('texto1')">Ingredientes</button>
+        <button onclick="mostrarTexto('texto2')">Aroma</button>
+        <button onclick="mostrarTexto('texto3')">Uso recomendado</button>
+
+        <div id="texto1" class="texto-info">
+          <p>Notas de salida: Manzana, bergamota, ciruela, limón.</p>
+          <p>Notas de corazón: Canela, clavo, geranio, cardamomo.</p>
+          <p>Notas de fondo: Sándalo, vetiver, cedro, oliva, vainilla.</p>
+        </div>
+        <div id="texto2" class="texto-info">
+          <p>Amaderado especiado.</p>
+        </div>
+        <div id="texto3" class="texto-info">
+          <p>Ideal para el día y la noche.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Producto 2 -->
+    <div class="producto">
+      <img src="lattafa.png" alt="Perfume Lattafa" class="imagen-perfume">
+      <div class="botones-info">
+        <button onclick="mostrarTexto('texto4')">Ingredientes</button>
+        <button onclick="mostrarTexto('texto5')">Aroma</button>
+        <button onclick="mostrarTexto('texto6')">Uso recomendado</button>
+
+        <div id="texto4" class="texto-info">
+          <p>Notas de salida: Mandarina, bergamota, lavanda.</p>
+          <p>Notas de corazón: Jazmín, rosa, canela.</p>
+          <p>Notas de fondo: Madera, almizcle, vainilla.</p>
+        </div>
+        <div id="texto5" class="texto-info">
+          <p>Amaderado floral.</p>
+        </div>
+        <div id="texto6" class="texto-info">
+          <p>Ideal para ocasiones especiales.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Producto 3 -->
+    <div class="producto">
+      <img src="yarra.png" alt="Perfume Yarra" class="imagen-perfume">
+      <div class="botones-info">
+        <button onclick="mostrarTexto('texto7')">Ingredientes</button>
+        <button onclick="mostrarTexto('texto8')">Aroma</button>
+        <button onclick="mostrarTexto('texto9')">Uso recomendado</button>
+
+        <div id="texto7" class="texto-info">
+          <p>Notas de salida: Naranja, limón, bergamota.</p>
+          <p>Notas de corazón: Lavanda, jazmín, canela.</p>
+          <p>Notas de fondo: Madera, almizcle, sándalo.</p>
+        </div>
+        <div id="texto8" class="texto-info">
+          <p>Cítrico especiado.</p>
+        </div>
+        <div id="texto9" class="texto-info">
+          <p>Ideal para el día.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Producto 4 -->
+    <div class="producto">
+      <img src="hugo.png" alt="Perfume Hugo" class="imagen-perfume">
+      <div class="botones-info">
+        <button onclick="mostrarTexto('texto10')">Ingredientes</button>
+        <button onclick="mostrarTexto('texto11')">Aroma</button>
+        <button onclick="mostrarTexto('texto12')">Uso recomendado</button>
+
+        <div id="texto10" class="texto-info">
+          <p>Notas de salida: Mandarina, limón, menta.</p>
+          <p>Notas de corazón: Geranio, lavanda, clavo.</p>
+          <p>Notas de fondo: Sándalo, cedro, almizcle.</p>
+        </div>
+        <div id="texto11" class="texto-info">
+          <p>Aromático cítrico.</p>
+        </div>
+        <div id="texto12" class="texto-info">
+          <p>Ideal para el día y la noche.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Producto 5 -->
+    <div class="producto">
+      <img src="lattafaN.png" alt="Perfume Lattafa N" class="imagen-perfume">
+      <div class="botones-info">
+        <button onclick="mostrarTexto('texto13')">Ingredientes</button>
+        <button onclick="mostrarTexto('texto14')">Aroma</button>
+        <button onclick="mostrarTexto('texto15')">Uso recomendado</button>
+
+        <div id="texto13" class="texto-info">
+          <p>Notas de salida: Manzana, limón, grosella.</p>
+          <p>Notas de corazón: Rosa, jazmín, lirio.</p>
+          <p>Notas de fondo: Madera, almizcle, vainilla.</p>
+        </div>
+        <div id="texto14" class="texto-info">
+          <p>Floral afrutado.</p>
+        </div>
+        <div id="texto15" class="texto-info">
+          <p>Ideal para el día y eventos formales.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Producto 6 -->
+    <div class="producto">
+      <img src="lattafaM.png" alt="Perfume Lattafa M" class="imagen-perfume">
+      <div class="botones-info">
+        <button onclick="mostrarTexto('texto16')">Ingredientes</button>
+        <button onclick="mostrarTexto('texto17')">Aroma</button>
+        <button onclick="mostrarTexto('texto18')">Uso recomendado</button>
+
+        <div id="texto16" class="texto-info">
+          <p>Notas de salida: Bergamota, limón, pimienta.</p>
+          <p>Notas de corazón: Lavanda, canela, jengibre.</p>
+          <p>Notas de fondo: Madera, sándalo, almizcle.</p>
+        </div>
+        <div id="texto17" class="texto-info">
+          <p>Aromático especiado.</p>
+        </div>
+        <div id="texto18" class="texto-info">
+          <p>Ideal para el día y la noche.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script para mostrar y ocultar los textos -->
+  <script>
+    function mostrarTexto(id) {
+      var texto = document.getElementById(id);
+      if (texto.style.display === "none" || texto.style.display === "") {
+        texto.style.display = "block";
+      } else {
+        texto.style.display = "none";
+      }
+    }
+  </script>
+</body>
+</html>

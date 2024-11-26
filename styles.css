@@ -1,0 +1,70 @@
+/* Estilo general */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Estilo del encabezado */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+}
+
+/* Estilo del contenedor de los productos */
+.catalogo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Estilo de cada producto */
+.producto {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 15px;
+}
+
+.imagen-perfume {
+  width: 80%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.botones-info button {
+  background-color: #5D5F4F;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.botones-info button:hover {
+  background-color: #444444;
+}
+
+/* Estilo para los textos de cada producto */
+.texto-info {
+  display: none;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.texto-info p {
+  margin: 
